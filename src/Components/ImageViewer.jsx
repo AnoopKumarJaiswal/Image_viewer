@@ -32,7 +32,7 @@ const ImageView = () => {
         Image Viewer
       </h1>
 
-      <div className="relative mb-6 w-full flex justify-center">
+      <div className="relative mb-6 w-full flex max-w-4xl mx-auto">
 
         <button
           onClick={prevImage}
